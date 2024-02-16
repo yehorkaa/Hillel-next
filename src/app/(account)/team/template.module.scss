@@ -1,0 +1,40 @@
+/* styles.scss */
+
+.sectionPadding {
+    padding: 6rem 0; // Equivalent to py-24 in Tailwind
+  }
+  
+  .container {
+    display: flex; // Equivalent to flex in Tailwind
+    align-items: center;
+    justify-content: space-around;;
+  }
+  
+  .sidebar {
+    overflow-y: auto;
+    border-right: 1px solid #e5e5e5; // Equivalent to border-r border-gray-200 in Tailwind
+    padding: 1.5rem 2rem; // Equivalent to py-6 pr-12 in Tailwind
+  }
+  
+  .nav {
+    display: flex; // Equivalent to flex in Tailwind
+    flex-direction: column; // Equivalent to flex-col in Tailwind
+  }
+  
+  .navList {
+    flex: 1; // Equivalent to flex-1 in Tailwind
+    flex-direction: column; // Equivalent to flex-col in Tailwind
+    gap: 1rem; // Equivalent to gap-y-4 in Tailwind
+  }
+  
+  .navItem {
+    transition: transform 0.3s ease-in-out; // Equivalent to motion-safe:transition-transform motion-safe:duration-300 motion-safe:ease-in-out in Tailwind
+  }
+  
+  .mainContent {
+    margin-left: 12rem; // Equivalent to ml-12 in Tailwind
+    flex-grow: 1; // Equivalent to grow in Tailwind
+    background-color: #f7f7f7; // Equivalent to bg-gray-50 in Tailwind
+    padding: 1.5rem; // Equivalent to p-6 in Tailwind
+  }
+  

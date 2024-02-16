@@ -1,0 +1,17 @@
+.container {
+  background: #2e3192;
+  .header_inner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0px;
+    > nav {
+      display: flex;
+      gap: 10px;
+
+      > a {
+        color: whitesmoke;
+      }
+    }
+  }
+}

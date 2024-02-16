@@ -1,0 +1,28 @@
+{
+  "languages": [
+    {
+      "title": "JavaScript",
+      "id": "js"
+    },
+    {
+      "title": "Java",
+      "id": "java"
+    },
+    {
+      "title": "C#",
+      "id": "c#"
+    },
+    {
+      "title": "TypeScript",
+      "id": "ts"
+    },
+    {
+      "title": "Swift",
+      "id": "swift"
+    },
+    {
+      "title": "Python",
+      "id": "python"
+    }
+  ]
+}
